@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #sushi-img {
+    height: auto;
+    width: auto;
+    padding: 20px;
+} */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar h1{
+    font-family: cursive;
+    font-size: 40px;
+    margin-left: -800px;
+    margin-top: 20px;
+}
+
+.photos{
+   
+    display: flex;
+}
+
+ .img1 {
+    height: 704px;
+    width: 600px;
+    
+}
+
+.img2 {
+    height: 704px;
+    width: 600px;
+}
+
+.img3 {
+    height: 704px;
+    width: 600px;
+} 
+
+#logo{
+    margin: 10px 30px;
+}
+
+#logo img{
+    /* margin: 10px 34px; */
+    height: 208px;
+    margin: -30px -50px;
+}
+
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: cursive;
+}
+
+#navbar::before{
+    content: "";
+    background-color: grey;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul a:hover{
+    color: rgb(192, 45, 45);
+    background-color: burlywood;
+}
+/* .sidebar{
+    width: 6vw;
+    height: 100vh; 
+      display: flex;  
+    margin:0;  
+    padding: 0;
+    background-color: grey;
+    transition: width 0.5s ease-in;
+    transition: width 0.3s ease-out;
+     
+}
+.sidebar:hover{
+    width:20vw;
+}
+.hide{
+    display:none;
+}
+p.hide{
+    font-size:4.5rem;
+}
+.sidebar:hover::after{
+    content:'HOME';
+} */
